@@ -1,0 +1,105 @@
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+h1
+{
+	color: black;
+	text-align: center;
+}
+
+body
+{
+	padding: auto;
+	background-image: url(fond_jaune.png);
+}
+/*h1,h2,h3
+{
+	border:4px solid skyblue;
+	box-shadow: 6px 6px 0px skyblue;
+}*/
+/*.description
+{
+	text-align:center ;
+	font-weight:bold;
+	line-height: 20px;
+}*/
+figure
+{
+	vertical-align: top;
+}
+.description: nth-child(1)
+{
+	width: 500px;
+	height: 100px;
+}
+#image
+{
+	display: flex;
+}
+header
+{
+    background: url('separateur.png') repeat-x bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo img
+{
+    width: 59px;
+    height: 60px;
+}
+
+header h1
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+
+header h2
+{
+    font-family: Dayrom, serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
